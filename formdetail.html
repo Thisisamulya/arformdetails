@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formdetail.css">
+</head>
+<body>
+    <div class="container" style="display: block;">
+        <center>
+        <h2>Please fill the following details</h2>
+        <div class="main"><h3>Your information</h3></div></center>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <form name="submit-to-google-sheet">
+                <div class="contain" style="display: block;">
+                    <p>*Name </p> <input type="text"  name="Full name" required>
+                    <p>*Gender</p>
+                    <div class="ra">
+                        <input type="radio" name="gender" value="female" required>&nbsp;&nbsp;Female&nbsp; <input type="radio" name="gender" value="female" required> 
+                        &nbsp;&nbsp;Male&nbsp;<input type="radio" name="gender" value="unattempted" required> &nbsp;&nbsp;Others&nbsp;
+                    </div>
+                    <p>*contact </p><input type="text" name="contact"  required>
+                    <p>*Occupation </p> <input type="text"  name="occupation" required>
+                </div>
+                <div class="contain1" style="display: None;">
+                    <p>*Email </p> <input type="email"  name="Email id" required>
+                    <p>*Birthday </p><input type="date" name="dob"  required>
+                    <p>*Highest qualification </p> <input type="text"  name="qualification" required>
+                </div>
+                <div class="contain2" style="display: None;">
+                    <p>*Describe yourself in a word </p> <input type="text"  name="description" required>
+                </div>
+                    <button id="btn1" type="submit">Submit</button>
+                    <button id="btn2" onclick="act()" >Next</button> 
+            </form>
+    </div>
+    <div class="thank" style="display: none;">
+        <h1>Response saved successfully &#128516;</h1>
+    </div>
+    <script src="formdetail.js"></script>
+</body>
+</html>
