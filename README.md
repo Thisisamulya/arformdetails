@@ -1,8 +1,8 @@
 # arformdetails
 
 
-This form offers a user-friendly interface for inputting information while ensuring efficient data management through integration with Google Sheets (form responsive to mobiles only).
-
+This form offers a user-friendly interface for inputting information while ensuring efficient data management through integration with Google Sheets.
+# ⚠️ Form responsive to mobiles only
 The information submitted through the form is stored in my Google Sheet titled "argooglesheet" !!!
 
 
